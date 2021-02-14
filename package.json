@@ -16,7 +16,6 @@
   "keywords": [],
   "author": "Vitalii Susulovskyi <vitalinos1978@gmail.com>",
   "license": "MIT",
- 
   "homepage": "https://github.com/Vitalino1978-stud/goit-js-hw-10-food-service",
   "devDependencies": {
     "@babel/core": "^7.11.6",
