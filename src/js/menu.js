@@ -1,6 +1,8 @@
+import menuTemplates from "../templates/menu-items.hbs";
 import menuData from "../menu.json";
 
-console.log(menuData.forEach(item => {
-  console.log(item.name);
-}
-))
+const markup = menuTemplates(menuData);
+
+const menuRef = document.querySelector('.js-menu');
+menuRef.insertAdjacentHTML('beforeend', markup)
+
